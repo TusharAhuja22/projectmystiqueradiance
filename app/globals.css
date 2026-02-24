@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,800&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #d4af37;
+  --gold-light: #f0d060;
+  --gold-shimmer: #f5e088;
+  --gold-dark: #a8891c;
+  --mystic-black: #0a0008;
+  --mystic-deep: #100015;
+  --mystic-purple: #1a0a2e;
+  --mystic-violet: #2d0f4e;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--mystic-black);
+  color: #e8dcc8;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--mystic-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* Gold shimmer button */
+.btn-gold {
+  position: relative;
+  background: linear-gradient(135deg, #a8891c 0%, #d4af37 30%, #f5e088 50%, #d4af37 70%, #a8891c 100%);
+  background-size: 200% auto;
+  color: #0a0008;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 0.85rem 2.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-position 0.5s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.btn-gold:hover {
+  background-position: right center;
+  box-shadow: 0 0 30px rgba(212,175,55,0.6), 0 0 60px rgba(212,175,55,0.25);
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  background: transparent;
+  color: var(--gold);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 0.8rem 2.2rem;
+  border: 1px solid var(--gold);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.btn-outline-gold:hover {
+  background: rgba(212,175,55,0.1);
+  box-shadow: 0 0 20px rgba(212,175,55,0.3), inset 0 0 20px rgba(212,175,55,0.05);
+  transform: translateY(-2px);
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(26, 10, 46, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212,175,55,0.15);
+  transition: all 0.4s ease;
+}
+
+.glass-card:hover {
+  background: rgba(45, 15, 78, 0.7);
+  border-color: rgba(212,175,55,0.4);
+  box-shadow: 0 0 30px rgba(212,175,55,0.2), 0 20px 60px rgba(0,0,0,0.5);
+  transform: translateY(-6px);
+}
+
+/* Gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #a8891c 0%, #d4af37 40%, #f5e088 60%, #d4af37 80%, #a8891c 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Ambient glow orbs */
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Section divider */
+.divider-gold {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 0 auto;
+}
+
+/* Honeycomb texture overlay */
+.honeycomb-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 66L0 50V16L28 0l28 16v34L28 66zm0-2l26-15V18L28 2 2 18v31l26 15z' fill='none' stroke='rgba(212%2C175%2C55%2C0.06)' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+/* Navbar blur */
+.navbar-blur {
+  background: rgba(10, 0, 8, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212,175,55,0.1);
+}
+
+/* Form inputs */
+.input-mystic {
+  background: rgba(26, 10, 46, 0.5);
+  border: 1px solid rgba(212,175,55,0.2);
+  color: #e8dcc8;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input-mystic:focus {
+  border-color: rgba(212,175,55,0.6);
+  box-shadow: 0 0 15px rgba(212,175,55,0.1);
+}
+
+.input-mystic::placeholder {
+  color: rgba(232,220,200,0.35);
+}
