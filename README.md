@@ -96,7 +96,7 @@ npm run build
 
 ## 🔧 Customizations Needed
 
-1. **Phone Number:** Replace `+91-XXX-XXXXXXX` in Footer + Contact page
+1. **Phone Number:** Replace `+91 9096671114` in Footer + Contact page
 2. **Google Maps:** Replace the placeholder div in `TastingRoomClient.tsx` with actual embed:
    ```html
    <iframe

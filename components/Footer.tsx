@@ -82,7 +82,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone size={14} style={{ color: "var(--gold)", flexShrink: 0 }} />
                 <span className="text-sm font-body" style={{ color: "rgba(232,220,200,0.5)" }}>
-                  +91-XXX-XXXXXXX
+                  +91 9096671114
                 </span>
               </li>
               <li className="flex items-center gap-3">

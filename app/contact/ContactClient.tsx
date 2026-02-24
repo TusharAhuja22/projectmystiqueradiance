@@ -75,7 +75,7 @@ export default function ContactClient() {
                     </div>
                     <div>
                       <p className="text-xs tracking-[0.2em] uppercase font-body mb-1" style={{ color: "rgba(212,175,55,0.5)" }}>Phone</p>
-                      <p className="text-sm font-body transition-colors duration-300" style={{ color: "rgba(232,220,200,0.7)" }}>+91-XXX-XXXXXXX</p>
+                      <p className="text-sm font-body transition-colors duration-300" style={{ color: "rgba(232,220,200,0.7)" }}>+91 9096671114</p>
                     </div>
                   </a>
 
