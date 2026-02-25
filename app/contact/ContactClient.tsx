@@ -68,7 +68,7 @@ export default function ContactClient() {
                 <div className="divider-gold !mx-0 !w-16 mb-6" />
 
                 <div className="space-y-5">
-                  <a href="tel:+91XXXXXXXXXX" className="flex items-start gap-4 group">
+                  <a href="tel:+919096671114" className="flex items-start gap-4 group">
                     <div className="w-9 h-9 flex items-center justify-center rounded-sm flex-shrink-0"
                       style={{ background: "rgba(212,175,55,0.1)", border: "1px solid rgba(212,175,55,0.2)", color: "var(--gold)" }}>
                       <Phone size={15} />
@@ -79,14 +79,14 @@ export default function ContactClient() {
                     </div>
                   </a>
 
-                  <a href="mailto:sip@mystiqueradiance.com" className="flex items-start gap-4 group">
+                  <a href="mailto:meadmdr@gmail.com" className="flex items-start gap-4 group">
                     <div className="w-9 h-9 flex items-center justify-center rounded-sm flex-shrink-0"
                       style={{ background: "rgba(212,175,55,0.1)", border: "1px solid rgba(212,175,55,0.2)", color: "var(--gold)" }}>
                       <Mail size={15} />
                     </div>
                     <div>
                       <p className="text-xs tracking-[0.2em] uppercase font-body mb-1" style={{ color: "rgba(212,175,55,0.5)" }}>Email</p>
-                      <p className="text-sm font-body transition-colors duration-300" style={{ color: "rgba(232,220,200,0.7)" }}>sip@mystiqueradiance.com</p>
+                      <p className="text-sm font-body transition-colors duration-300" style={{ color: "rgba(232,220,200,0.7)" }}>meadmdr@gmail.com</p>
                     </div>
                   </a>
                 </div>
