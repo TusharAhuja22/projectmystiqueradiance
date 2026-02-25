@@ -119,6 +119,24 @@ export default function HomePage() {
             Crafting ethereal meads with natural honey, herbs, and radiance. 
             Discover the ancient art of Mystique Radiance.
           </motion.p>
+          {/* Ultra Premium Sustainability Tagline */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1 }}
+            className="flex items-center justify-center gap-4"
+          >
+            <div className="h-px w-12 bg-[var(--gold)] opacity-50"></div>
+
+            <p
+              className="text-xs tracking-[0.5em] uppercase font-body"
+              style={{ color: "var(--gold)", letterSpacing: "0.5em" }}
+            >
+              The Sustainability Connect
+            </p>
+
+            <div className="h-px w-12 bg-[var(--gold)] opacity-50"></div>
+          </motion.div>
 
           {/* CTA Buttons */}
           <motion.div
