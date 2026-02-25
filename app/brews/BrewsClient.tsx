@@ -35,6 +35,16 @@ const products = [
     emoji: "🌙",
     gradient: "linear-gradient(90deg, #3b1a78, #d4af37, #7c3aed, #d4af37, #3b1a78)",
   },
+  {
+    name: "Mystique Floral Reserve Honey",
+    type: "Artisanal Multi-Floral Honey",
+    abv: "0%",
+    description: "A luxurious expression of nature’s finest blossoms, carefully harvested from diverse floral regions and preserved in its purest raw form.",
+    pairing: "Artisanal cheeses, sourdough toast, herbal infusions, gourmet desserts",
+    notes: "Brilliant gold with a radiant clarity. The bouquet opens with delicate wildflower aromas layered with hints of orchard blossom and forest nectar. On the palate, it reveals a smooth, silken sweetness balanced by gentle floral complexity and subtle earthy undertones. Each variant reflects its botanical origin — elegant, luminous, and naturally refined. Best enjoyed at room temperature to experience its full aromatic depth.",
+    emoji: "🍯",
+    gradient: "linear-gradient(90deg, #b8860b, #d4af37, #f0d060, #d4af37, #b8860b)",
+  },
 ];
 
 export default function BrewsClient() {

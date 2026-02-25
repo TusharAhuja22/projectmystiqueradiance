@@ -37,6 +37,16 @@ const products = [
     emoji: "🌙",
     gradient: "linear-gradient(90deg, #7c3aed, #d4af37, #7c3aed)",
   },
+  {
+    name: "Mystique Floral Reserve Honey",
+    type: "Artisanal Honey Collection",
+    abv: "0%",
+    description: "A curated collection of raw, unfiltered honey crafted from diverse floral landscapes, each jar capturing the pure essence of its origin.",
+    pairing: "Cheese platters, herbal teas, warm toast, desserts",
+    notes: "Harvested from select floral regions, Mystique Floral Reserve expresses delicate aromas, layered sweetness, and natural depth. From wild forest blooms to orchard blossoms, each variant reflects its terroir — golden, luminous, and refined.",
+    emoji: "🍯",
+    gradient: "linear-gradient(90deg, #d4af37, #f0d060, #d4af37)"
+  },
 ];
 
 const values = [
