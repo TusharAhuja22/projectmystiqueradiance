@@ -13,17 +13,21 @@ const sections = [
     icon: "📜",
     label: "Our Story",
     title: "Where Ancient Wisdom Meets Modern Vision",
-    body: `Mystique Radiance Breweries LLP was born from a singular obsession: to resurrect the world's oldest alcoholic beverage with uncompromising craft and beauty. Founded by a team of passionate artisans, botanists, and honey enthusiasts, we set out to prove that mead — the drink of Vikings, poets, and alchemists — deserves its throne at the modern table.
+    body: `At Mystique Radiance Breweries, we believe that every pint should be an experience, not just a drink. Born from a passion for the unconventional, our journey began with a simple mission: to combine the ancient mystique of traditional brewing with the radiant innovation of modern craft.
 
-Our journey began in the foothills of the Western Ghats, where we discovered local wildflower honey of extraordinary complexity. This honey became our foundation — raw, unfiltered, vibrating with the life of thousands of flowers. From that first batch, we knew we were building something timeless.`,
+ Located in the heart of vidharba, we are a team of dedicated "hop-heads" and industry veterans committed to quality without compromise. We don't just brew mead; we "radiate positivity" and foster a vibrant community where every visitor feels like a neighbor.`,
   },
   {
     icon: "⚗️",
     label: "Our Craft",
     title: "Natural, Sustainable, and Utterly Magical",
-    body: `Every bottle of Mystique Radiance is a testament to patience. We use only single-origin honey sourced from small-scale, sustainable apiaries across India. Our fermentation is slow and traditional — never rushed, never shortcuts. We add no artificial preservatives, no concentrated flavors, and no gluten-containing ingredients.
+    body: `We pride ourselves on a "simplistic approach" to complex beverages, ensuring every pour is balanced, sessionable, and full of character.
 
-Our botanical ingredients — herbs, spices, and fruits — are ethically sourced and seasonal. We believe that the most magical brews come from the most honest ingredients. The result is mead of extraordinary depth: complex, alive, and unique to every harvest.`,
+Purity in Every Pour: We use only the finest ingredients, shunning preservatives and shortcuts to maintain the integrity of our craft.
+
+Community First: From day one, we've focused on building a space that belongs to you. Whether it’s through local events or sustainable practices, we aim to be a "good neighbor" in everything we do.
+
+Experimental Spirit: Our brewers love to push boundaries, often incorporating "mythical" inspirations and bold flavors that stand out in a crowd.`,
   },
   {
     icon: "🔭",
